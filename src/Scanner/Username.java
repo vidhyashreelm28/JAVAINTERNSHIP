@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class Username {
 
-	public Username() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -23,3 +20,4 @@ public class Username {
 	}
 
 }
+
