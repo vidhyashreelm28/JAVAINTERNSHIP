@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My HTML</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-- Headings -->
+        <h1>Main Topic Heading</h1>     
+        <h2>Major Section Heading</h2>
+        <h3>Sub-Section Heading</h3>
+        <h4>Minor Topic Heading</h4>
+        <h5>Detail Heading</h5>
+        <h6>Least Important Heading</h6>
+    <hr>
+    <hr>
+    <!-- Paragraphs -->
+    <h2> PARAGRAPH </h2>
+        <p>
+            To write a truly effective and engaging paragraph, one must consider not just the length, 
+            but the <strong>coherence</strong> and <strong>depth</strong> of the content. 
+            A long paragraph should develop a <em>single, unified idea</em>, using a clear <strong>topic sentence</strong> to introduce the main point. Subsequent sentences should offer supporting details, compelling evidence, or illustrative examples that build upon that central idea, ensuring a smooth and logical transition from one thought to the next. 
+        </p>
+    <hr>
+    <hr>
+    <!-- Link -->
+    <h2> LINK </h2>
+        <a href="https://www.google.com">Visit Google</a>   <!--Opens in existing tab -->
+        <a href="https://www.google.com" target="_blank">Visit Google in a New Tab</a>   <!--Opens in new tab -->
+    <hr>
+    <!-- Lists -->
+    <h2> LISTS </h2>
+    <h2>Unordered List (Bulleted)</h2>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Cherries</li>
+        </ul>
+    <hr>
+    <hr>
+    <h2>Ordered List (Numbered)</h2>
+        <ol>
+            <li>First Step</li>
+            <li>Second Step</li>
+            <li>Third Step</li>
+        </ol>
+    <hr>
+    <hr>
+    <h2>Description List</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language, the standard markup language for creating web pages.</dd>
+    
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets, used for describing the presentation of a document written in a markup language.</dd>
+        </dl>
+    <hr>
+    <hr>
+    <!-- Tables -->
+    <h2> TABLE </h2>
+    <table>
+        <h2>Monthly Sales Report</h2>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Unit Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>50</td>
+                <td>$1200</td>
+                <td>$60,000</td>
+            </tr>
+            <tr>
+                <td>Monitor</td>
+                <td>75</td>
+                <td>$300</td>
+                <td>$22,500</td>
+            </tr>
+            <tr>
+                <td>Keyboard</td>
+                <td>150</td>
+                <td>$75</td>
+                <td>$11,250</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Grand Total Sales:</td>
+                <td>$93,750</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <hr>
+    <!-- Forms -->
+    <h2> REGISTRATION FORM </h2>
+    <form action="/submit-form-data" method="POST">
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="user_name" placeholder="e.g., Jane Doe" required><br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="user_email" placeholder="janedoe@example.com" required><br><br>
+        <label for="gender_select">Gender:</label>
+        <br>
+        <select id="gender_select" name="user_gender" required>
+            <option value="" disabled selected>Choose one...</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other / Prefer not to say</option>
+        </select>
+        <br>
+        <p>How often do you read?</p>
+        <input type="radio" id="daily" name="reading_frequency" value="daily">
+        <label for="daily">Daily</label><br>
+        <input type="radio" id="weekly" name="reading_frequency" value="weekly">
+        <label for="weekly">Weekly</label><br>
+        <input type="radio" id="monthly" name="reading_frequency" value="monthly">
+        <label for="monthly">Monthly or Less</label><br><br>
+        <input type="submit" value="Vote">
+        <br>
+        <br>
+        <label for="number">Mobile Number:</label>
+        <br>
+        <input type="number" id="number" name="number" placeholder="9480XXXXXX" required><br>
+        <br>
+        <label>Select Your Interests (Check all that apply):</label>
+        <br>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Programming & Coding</label><br>
+
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Graphic Design</label><br>
+
+            <input type="checkbox" id="marketing" name="interests" value="marketing" >
+            <label for="marketing">Digital Marketing</label><br>
+
+            <input type="checkbox" id="writing" name="interests" value="writing">
+            <label for="writing">Content Writing</label>
+        
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="user_message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br><br>
+        <input type="submit" value="Submit Inquiry">
+    </form>
+    <hr>
+    <hr>
+<!-- Image -->
+    <h2> IMAGE </h2>
+    <img src="it-essentials.png" alt="A Certificate" width="400" height="300">
+    <hr>
+    <hr>
+<!-- Audio And Video -->
+    <h2> AUDIO AND VIDEO </h2>
+    <audio controls>
+        <source src="SampleAudio.unknown" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <h3>Embedded Video Player</h3>
+    <video width="320" height="240" controls>
+        <source src="SampleVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+<!-- Quotation -->
+    <h2> QUOTATION </h2>
+    <h2>1. Blockquote (for long, block-level quotations)</h2>
+    <blockquote cite="http://www.famousquotes.com/source">
+        <p>The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+            This principle extends beyond professional life into every facet of personal growth and fulfillment. Passion is the fuel that drives true excellence, transforming tedious tasks into meaningful contributions. It requires patience and an unwavering commitment to self-discovery, understanding that the search itself is often as valuable as the eventual finding.
+        </p>
+        <footer>— Steve Jobs</footer>
+    </blockquote>
+    <h2>2. Inline Quotation (&lt;q&gt;)</h2>
+        <p>
+            When asked about the future of technology, the CEO simply stated, <q cite="http://www.techmagazine.com/interview">Innovation is not a single act, but a continuous cycle of learning and improvement.</q> That message resonated with the audience.
+        </p>
+    <h2>3. Citation (&lt;cite&gt;)</h2>
+        <p>
+            The poem <cite>The Road Not Taken</cite> by Robert Frost discusses the theme of life choices.
+        </p>
+    <hr>
+    <h2>Combining Tags</h2>
+    <p>
+        As one writer eloquently put it, <cite>Where the Sidewalk Ends</cite> remains a cornerstone of children's literature, with its famous line, <q>There is a place where the sidewalk ends.</q>
+    </p>
+    <hr>
+    <hr>
+    <!-- Abbreviation -->
+        <h2>HTML ABBREVIATION</h2>
+        <p>
+            The language used for styling web pages is <abbr title="Cascading Style Sheets">CSS</abbr>.
+            It works closely with <abbr title="HyperText Markup Language">HTML</abbr> to structure content.
+        </p>
+    <hr>
+    <hr>
+    <!-- Footer -->
+    <h2> FOOTER </h2>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 My Website Name. All Rights Reserved. | Designed by [Your Name/Company]</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="/privacy">Privacy Policy</a></li>
+                    <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="social-links">
+                <a href="https://facebook.com/mywebsite" target="_blank">
+                    <img src="Facebook.png" alt="Facebook Icon" width="30" height="30">
+                </a>
+                <a href="https://twitter.com/mywebsite" target="_blank">
+                    <img src="Twitter.webp" alt="Twitter X Icon" width="30" height="30">
+                </a>
+                <a href="https://linkedin.com/company/mywebsite" target="_blank">
+                    <img src="Linkdin.png" alt="LinkedIn Icon" width="30" height="30">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* 1. Global Basics*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: bisque ;
+}
+/* Heading **/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal ;
+    text-align: center;
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: darkolivegreen;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: green;
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: seagreen;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: yellowgreen;
+}
+/* 2. Table Styling (Required for structure)*/
+table {
+    width: 100%;
+    border-collapse: collapse; /* Essential for single-line borders */
+    margin: 20px 0;
+    background-color: chocolate;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #eee;
+}
+/* 3. Form Styling (Required for clarity) */
+form {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: chocolate;
+}
+
+/* Make inputs full width for better flow */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea,
+select {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block; /* Ensures they take their own line */
+}
+
+/* Style the submit buttons */
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* 4. Footer Styling (Required for separation)*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-nav a,
+.social-links a {
+    color: #99ccff; /* Light blue links */
+    text-decoration: none;
+}
+
+.social-links img {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+/* 5. Blockquote and Abbreviation       */
+blockquote {
+    border-left: 4px solid #007bff; /* Simple visual marker */
+    padding-left: 15px;
+    color: #555;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+abbr {
+    text-decoration: underline dotted;
+    cursor: help;
+}
