@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Username {
 
+	
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -20,4 +21,3 @@ public class Username {
 	}
 
 }
-
